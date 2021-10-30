@@ -1,0 +1,19 @@
+.bizzency-top {
+    background-color: $bizzency-primary-clr;
+    padding: 12px 0;
+
+     &__wrapper {
+        display: flex; 
+        justify-content: space-between;
+
+        &--left, 
+        &--right {
+            color: $bizzency-white-clr;
+            font-family: $bizzency-secondary-font;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
+
+

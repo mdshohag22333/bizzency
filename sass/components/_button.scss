@@ -1,0 +1,73 @@
+.primary-btn{
+    background: $bizzency-white-clr;
+    text-transform: capitalize;
+    color: $bizzency-primary-clr;
+    font-family: $bizzency-secondary-font;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: .3s;
+
+}
+.btn-style-1 {
+    background-color: $bizzency-secondary-clr;
+    color: $bizzency-white-clr;
+    border: 1px solid $bizzency-secondary-clr;
+
+    &:hover {
+        background: $bizzency-white-clr;
+        color: $bizzency-secondary-clr;
+    
+    }
+}
+.btn-style-2{
+    box-shadow: 4px 8px 30px 0px rgba(black ,.1);
+
+    &:hover {
+        background: $bizzency-arrow-hover;
+    }
+}
+.primary-play-btn {
+    background: $bizzency-white-clr;
+    color: $bizzency-secondary-clr;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 900px;
+    border: 0;
+    border-radius: 50%;
+    margin-left: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: .3s;
+    line-height: 50px;
+    text-align: center;
+
+    &:hover {
+        background: $bizzency-secondary-clr;
+        color: $bizzency-white-clr;
+    }
+}
+.primary-arrow-btn {
+    background: $bizzency-white-clr;
+    color: #101010;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 900px;
+    border: 0;
+    border-radius: 50%;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: .3s;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 4px 8px 30px 0px rgba(0, 0, 0, .1);
+
+    &:hover {
+        background-color: $bizzency-arrow-hover;
+    }
+}

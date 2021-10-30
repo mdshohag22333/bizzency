@@ -1,0 +1,26 @@
+// Fonts and Fontawesome
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+// Variable Utils and Base
+@import './utils/variable';
+@import './utils/extends';
+@import './utils/mixins';
+@import './base/reset';
+@import './base/typography';
+
+/* Components */
+@import './components/button';
+@import './components/section-heading';
+
+/* Layout import */
+@import './layout/header-top';
+@import './layout/navigation';
+@import './layout/banner';
+@import './layout/about';
+@import './layout/skills';
+@import './layout/service';
+@import './layout/portfolio';
+@import './layout/testimonials';
+@import './layout/blog';
+@import './layout/footer';

@@ -1,0 +1,64 @@
+.portfolio-part .blog-item {
+    text-align: left;
+    background-color: $bizzency-deep-gray;
+    padding: 20px;
+    transition: all linear .5s;
+
+    &:hover{
+        background-color: #0f2f44;
+        padding: 20px;
+    }
+
+    p{
+        font-family: $bizzency-secondary-font;
+        font-size: 14px;
+        font-weight: 500;
+        color: #777777;
+        transition: all linear .5s;
+        padding-top: 20px;
+    }
+
+    h2{
+        font-family: $bizzency-secondary-font;
+        font-size: 20px;
+        font-weight: 500;
+        color: #222222;
+        padding-top: 7px;
+        padding-bottom: 14px;
+        transition: all linear .5s;
+    }
+
+    a{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        color: #777777;
+        text-transform: capitalize;
+        transition: all linear .5s;
+    }
+
+    &:hover a,
+    &:hover h2,
+    &:hover p{
+        color: white;
+    }
+}
+.wrapper-blog{
+    position: relative;
+
+    .portfolio-wrapper{
+        column-gap: 70px;
+    }
+
+    .prev-btn{
+        position: absolute;
+        top: calc( 50% - 50px );
+        left: calc( (1140px / 3) + 20px );
+    }
+
+    .next-btn{
+        position: absolute;
+        top: calc( 50% - 50px );
+        right: calc( (1140px / 3) - 35px );
+    }
+}

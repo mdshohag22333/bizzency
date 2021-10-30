@@ -1,0 +1,11 @@
+Template Name: Bizzency
+Template URI: http://codiaum.com/
+Author: Tanjil Islam Shohag
+Author URI: https://tanjilislamshohag.com
+Description: An agency html template
+Stable Version: 1.0.0
+
+
+== Changelog ==
+version: 1.0.0
+Added: Home Page Added

@@ -1,0 +1,53 @@
+.portfolio-part {
+    padding: 80px 0;
+
+    .portfolio-wrapper{
+        margin-top: 50px;
+    }
+
+    .portfolio-item{
+        position: relative;
+
+        &:hover h2{
+            opacity: 1;
+            box-shadow: 5px 10px 65px rgba(0, 0, 0, .1);
+        }
+
+        h2{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            opacity: 0;
+            font-family: $bizzency-secondary-font;
+            font-weight: 600;
+            color: #0f2f44;
+            font-size: 16px;
+            transition: all linear .5s;
+        }
+    }
+
+    .wrapper{
+        position: relative;
+        text-align: center;
+    }
+
+    .prev-btn{
+        position: absolute;
+        top: calc( 50% - 50px );
+        left: calc( (1140px / 3) - 10px );
+    }
+
+    .next-btn{
+        position: absolute;
+        top: calc( 50% - 50px );
+        right: calc( (1140px / 3) - 10px );
+    }
+
+    .primary-btn{
+        margin-top: 40px;
+    }
+}

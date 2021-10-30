@@ -1,0 +1,63 @@
+.wrapper {
+    margin-top: 50px;
+    column-gap: 20px;
+}
+.testimonial{
+    padding:50px 0;
+    background-color: $bizzency-section-bg;
+
+    .testimonial-item {
+        background-color: $bizzency-deep-gray;
+        flex: 50%;
+    }
+
+    .details {
+        text-align: left;
+        padding: 10px;
+
+            p{
+        font-family: $bizzency-secondary-font;
+        font-weight: 400;
+        font-size: 14px;
+        color: #0f2f44;
+         }
+
+         h2{
+            font-family: $bizzency-secondary-font;
+            font-weight: 500;
+            font-size: 20px;
+            color: #0f2f44;
+            padding-top: 34px;
+        }
+
+        h3{
+            font-family: $bizzency-secondary-font;
+            font-size: 16px;
+            font-weight: 400;
+            color: #0f2f44;
+        }
+    }
+
+    .img img{
+        height: 100%;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .wrapper{
+        position: relative;
+    }
+
+    .prev-btn {
+        position: absolute;
+        top: calc( 50% - 25px );
+        left: -25px;
+    }
+
+    .next-btn {
+        position: absolute;
+        top: calc( 50% - 25px );
+        right: -12px;
+    }
+}

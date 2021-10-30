@@ -1,0 +1,25 @@
+.about-part{
+    padding: 120px 0;
+
+    .description,
+    ul li {
+    font-family: $bizzency-secondary-font;
+    font-size: $bizzency-body-text-size;
+    font-weight: 400;
+    color: $bizzency-primary-clr;
+    }
+
+    .description {
+        margin-top: 32px;
+        margin-bottom: 25px;
+    }
+
+    ul li{
+        line-height: 40px;
+        padding-left: 40px;
+        margin-bottom: 2px;
+     }
+     ul li:last-child{
+        margin-bottom: 20px;
+     }
+}

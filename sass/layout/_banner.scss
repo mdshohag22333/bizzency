@@ -1,0 +1,47 @@
+.banner-part {
+    background-image: url(./../images/banner.png);
+    padding: 130px 0;
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+
+    .subtitle-top,
+    .subtitle-bottom,
+    .description {
+        font-family: $bizzency-primary-font;
+        font-weight: 400;
+    } 
+
+    .subtitle-top{
+        font-family: $bizzency-secondary-font;
+        font-size: 50px;
+        color: $bizzency-primary-clr;
+    }
+
+    .title{
+        font-size: 80px;
+        color: $bizzency-primary-clr;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+        line-height: 80px;
+    }
+
+    .subtitle-bottom{
+        font-family: $bizzency-secondary-font;
+        font-size: 32px;
+        color: $bizzency-secondary-clr;
+        letter-spacing: 14px;
+        margin-bottom: 10px;
+    }
+
+    .description{
+        font-family: $bizzency-secondary-font;
+        font-size: 14px;
+        width: 470px;
+        line-height: 25px;
+    }
+
+    .banner-button{
+        margin-top: 40px;
+    }
+}
